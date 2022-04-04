@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Style -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+        <!-- style  = Bootstrap - CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" type="text/css"  href="assets/css/carousel.css"> -->
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+
+<!-- ------ -->
+<!-- NavBar -->
+<!-- ------ -->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="myDIV">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+              <ul class="navbar-brand">
+                  <li><a href="index.html" class="active">HOME</a></li>
+              </ul> 
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->    
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li><a href="#">PS3</a></li>
+              <li><a href="#">PS4</a></li>
+              <li><a href="#">PS VITA</a></li>
+          </ul>
+          
+          <!-- gringo.tech logo -->
+          <div class="text-center"><img src="assets/images/logo/LogoNova.png" id="logo-img"></li>
+  
+              <ul class="nav navbar-nav navbar-right">          
+                  <li><a href="#">GAMES</a></li>
+                  <li><a href="#">CHAT</a></li>
+                  <li><a href="#">FORUM</a></li>   
+                  <!--ORIGINAL - change placeholder picture to facebook picture - ORIGINAL-->
+                  <li class="thumbnail text-center"><div id="fbUserPhoto" class="buttonlogo thumbnail"><img class="profilePicture" id="buttonlogo" src="assets/images/logo/profile.png"/></div>
+                          <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">USER<span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                              <li><a href="#">User login</a></li>
+                              <li><a href="#">Admin login</a></li>
+                              <li><a href="#">Dashboard</a></li>
+                              <li><a href="javascript:void(0);" onclick="fbLogin()" id="fbLink"><span></span>Facebook Login</a></li>
+                              <li><a href="#">Ranking</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#" id="fbUserName">User Profile</a></li>
+                          </ul><!-- end Dropdown menu -->
+                      </div>
+                  </li><!-- end navbar -->
+              </ul><!-- end navbar -->
+          <!-- end of logo-->
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+<!-- content -->
+
+  
+
+
+<!-- ------ -->
+<!-- footer -->
+<!-- ------ -->
+<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h4 class="footerh4">Quick Links</h4>
+					<ul class="list-unstyled quick-links">
+						<li>
+							<a href="#" class="footerLink">Contact Us</a>
+						</li>
+						<li>
+							<a href="#" class="footerLink">Our Policy</a>
+						</li>
+                        <li>
+							<a href="#" class="footerLink">About Us</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h4 class="footerh4">Our Team</h4>
+					<ul class="list-unstyled quick-links">
+                        <li>
+							<a href="#" class="footerLink">Robert F. Web Developer</a>
+						</li>
+						<li>
+							<a href="#" class="footerLink">Join Our Team</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h4 class="footerh4">Social Media</h4>
+					<ul class="list-unstyled quick-links">
+						<li>
+							<a href="#" class="footerLink" target="_blank">Facebook</a>
+						</li>
+						<li>
+							<a href="#" class="footerLink" target="_blank">Discord</a>
+						</li>
+						<li>
+							<a href="#" class="footerLink" target="_blank">Youtube</a>
+						</li>
+						<li>
+							<a href="#" class="footerLink" target="_blank">Twitch</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p id="copyright"><a class="footerLink" href="# target="_blank"><span class="gringo"> Gringo</span><span class="tect">.Tech</span></a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+</section>
+
+
+<!-- javascript function to display comments counts -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/javascript/bootstrap.js"></script>
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>
